@@ -1,4 +1,5 @@
 NAME=dxl-atd-misp
 LOCATION=mcafee/dxl-atd-misp
+CA_CERT=dxlca.localdomain
 CLIENT_CERT=dxl-atd-misp.localdomain
 PEM_PASS=mcafee
