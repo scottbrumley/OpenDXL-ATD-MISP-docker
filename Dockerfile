@@ -49,7 +49,7 @@ WORKDIR /OpenDXL-ATD-MISP
 
 RUN sed -i 's/https:\/\/misp-url\//https:\/\/misp\//g' misp.py
 RUN sed -i 's/api-key/MvQeHbndoW0CkArWnPy8wxG2ea5XHZFwUIm0ITYY/g' misp.py
-RUN sed -i 's/path to dxlclient config file/dxlclient.config/g' atd_subscriber.py
+RUN sed -i 's/path to dxlclient config file/\/config\/dxlclient.config/g' atd_subscriber.py
 RUN cat atd_subscriber.py
 
 ENTRYPOINT ["python"]
